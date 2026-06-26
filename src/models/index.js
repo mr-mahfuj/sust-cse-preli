@@ -5,7 +5,7 @@ const requestSchema = require('./requestSchema');
 const { validateResponse } = require('./responseSchema');
 
 module.exports = {
-  ...enums,
-  requestSchema,
-  validateResponse,
+	...enums,
+	requestSchema,
+	validateResponse,
 };
